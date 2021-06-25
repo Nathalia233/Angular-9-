@@ -12,11 +12,11 @@ const routes: Routes = [
   component: HomeComponent,
   },
   {
-    path:"products",
+    path:"crud",
     component: ProductsCrudComponent
   },
   {
-    path: "products",
+    path: "create",
     component: ProductCreateComponent
   }
 ];
